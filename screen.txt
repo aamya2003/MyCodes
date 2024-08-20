@@ -1,0 +1,12 @@
+sudo apt install screen
+
+
+screen -S session_name
+
+screen -r session_name
+
+screen -d session_name
+
+screen -ls
+
+screen -S session_name -X quit
